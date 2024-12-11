@@ -1,0 +1,31 @@
+.Animcontainer {
+  display: flex;
+  overflow: hidden; 
+  height: 900px; 
+  position: relative;
+}
+
+.column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 200%; 
+  animation: moveDown 15s linear infinite;
+}
+
+/* Animation that moves the column from top to bottom */
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%); /* Move up by half of the column's height */
+  }
+}
+
+/* Pause the animation on hover */
+.column:hover {
+  animation-play-state: paused;
+}

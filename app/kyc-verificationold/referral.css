@@ -1,0 +1,145 @@
+  /*referral*/
+  .balance_btn button .sep1 {
+    background: #1d1d1d3d;
+    width: 1px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 2px 0 4px;
+  }
+  .balance_btn button img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+  }
+  .user_balance_dashboard .card-info p.fw600
+  {
+    font-weight: 600;
+  }
+  .cm_faq2 .cm_faq1 .toggle-content p {
+    font-size: 14px;
+  }
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle {
+    border-width: 0 0 1px;
+    border-radius: 0;
+    padding: 0 3rem 1rem 0;
+    margin: 1rem 0;
+  }
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle:last-child
+  {
+    border: none;
+  }
+  .cm_faq2 {
+    border: 1px solid #E7E7E7;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 0 0 2rem;
+  }
+  .cm_faq2 .cm_faq1 .toggle-title
+  {
+    line-height: 24px;
+  }
+
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle.active::after {
+    transform: translateY(-50%) rotate(0deg);
+    -moz-transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) rotate(0deg);
+  }
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle::after {
+    right: 0;
+    z-index: 10;
+  }
+  .vw a {
+    color: var(--primary);
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    margin: 1rem 0;
+  }
+  .cm_table1 thead, .cm_table1 thead th
+  {
+    background: #FAFAFA;
+    border: none;
+  }
+  
+  .cm_table1 
+  {
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  .cm_table1 .table
+  {
+    margin: 0;
+  }
+  .cm_table1 thead th, .cm_table1 tbody td
+  {
+    font-family: var(--opensans);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--black8);
+    padding: 1rem;
+    text-align: center;
+  }
+  .cm_table1 tbody td
+  {
+    border-color: #E7E7E7;
+  }
+  .cm_table1 tbody tr:last-child td
+  {
+    border: none;
+  }
+  .cm_table1 .table > :not(:first-child)
+  {
+    border: none !important;
+  }
+  .num-text .select1 {
+    width: 90px;
+    padding: 0px 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    top: -3px;
+    position: relative;
+  }
+  .cm_ingrp1
+  {
+    margin: 2rem 0;
+  }
+  .cm_ingrp1 .form-control, .cm_ingrp1 .btn {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .cm_ingrp1 .form-control {
+    background: #000D1D0F;
+    height: 48px;
+  }
+  .cm_ingrp1 .btn {
+    background: var(--primary);
+    min-width: 60px;
+    border-radius: 5px !important;
+  }
+  .cm_ingrp1 .input-group-text {
+    border: none !important;
+    background: #f0f0f1;
+  }
+  .cm_formd1 .block-text1 p span {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 7px;
+  }
+  .cm_ingrp1 .form-control::-moz-placeholder
+  {
+    color: #000d1d3a;
+  }
+  .cm_formd1
+  {
+    padding: 1.8rem 2rem 1.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    margin: 2rem 0;
+  }
+      /*referral*/

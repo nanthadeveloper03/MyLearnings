@@ -1,0 +1,122 @@
+.cm_inhd1 
+{
+ margin: 2rem 0;
+ padding: 3.7rem 0;
+ background-size: cover;
+ border-radius: var(--sz10);
+}
+
+.cm_inhd1 h3
+{
+font-size: 64px;
+line-height: 74px;
+margin: 1rem 0;
+}
+
+
+.cm_inhd2 
+{
+ margin: 2rem 0;
+}
+
+.cm_inhd2 h3
+{
+font-size: 54px;
+line-height: 62px;
+color: var(--black8);
+margin: 1rem 0;
+}
+
+.cm_inhd2 p
+{
+font-size: var(--sz20);
+line-height: var(--sz35);
+color: #5F6980;
+margin: 1rem 0;
+}
+
+
+.team_card1 {
+    border-radius: var(--sz12);
+    border: 1px solid #EAECF0;
+    margin: 2rem 0;
+    transition: box-shadow var(--easeinout);
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.team_im {
+    width: 100%;
+    height: 276px;
+}
+
+.team_im img {
+    width: 100%;
+    object-fit: cover;
+    height: 276px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.team_cn h4 {
+    font-size: var(--sz18);
+    line-height: var(--sz26);
+    color: #282828;
+    margin: 1px 0;
+}
+
+.team_cn h6 {
+    font-size: var(--sz14);
+    line-height: var(--sz22);
+    color: #3E3E59;
+    margin: 1px 0;
+}
+
+.team_cn {
+    padding: 1rem;
+    position: relative;
+    top: 14px;
+    transition: padding-bottom 0.3s ease, top 0.3s ease;
+}
+.team_card1:hover .team_cn
+{
+    top: -4px;
+}
+
+.team_card1:hover {
+    box-shadow: 0 0 10px 0 var(--primary);
+}
+
+.soc_dis {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    background: #E5F2FF;
+    transition: opacity 0.3s ease, transform 0.3s ease, padding 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-width: 0px 1px 1px 1px;
+    border-color: #EAECF0;
+}
+
+.team_card1:hover .soc_dis {
+    opacity: 1;
+    transform: scaleY(1);
+    padding: 8px 20px;
+}
+
+.soc_dis svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--black8);
+}
+  

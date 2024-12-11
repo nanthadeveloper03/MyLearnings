@@ -1,0 +1,305 @@
+:root
+{
+  --blackb1: #202020;
+  --blackb2: #323232;
+  --whiteb1: #F6F9FB;
+  --whiteb2: #fafafa;
+  --whiteb3: #e7e7e7;
+  --whitet1: #fff;
+}
+.rbanner
+{
+  background: url(/assets/images/rightcoinid/topbg1.jpg) no-repeat scroll right;
+  padding: 6rem 0;
+  position: relative;
+} 
+.rbanner h1 {
+  font-size: 56px;
+  line-height: 66px;
+  margin: 2.5rem 0 2rem;
+}
+.rbanner p {
+  font-size: var(--sz18);
+  line-height: var(--sz26);
+  margin-bottom: 3rem;
+}
+.rbanner .btn-action {
+  border-radius: var(--sz12);
+  font-size: var(--sz16);
+  line-height: var(--sz24);
+  min-width: 260px;
+  margin-bottom: 2rem;
+  padding: 0.7rem 1rem;
+  transition: 0.5s ease-in-out all 0s;
+}
+.rbanner .btn-action:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+}
+.rig_vim {
+  width: 93%;
+  margin: 3.4rem 0;
+}
+.rig_vcn p {
+  font-size: var(--sz18);
+  line-height: var(--sz24);
+  color: var(--black1);
+  margin: 0 0 1rem;
+}
+.rig_vcn h3 {
+  font-size: 48px;
+  line-height: 50px;
+  margin: 1rem 0 1.8rem;
+}
+.rig_vcn h6 {
+  font-size: var(--sz24);
+  line-height: var(--sz24);
+  margin: 1rem 0;
+  padding-bottom: 4px;
+}
+.rig_vcn h6 span {
+  background: var(--primary);
+  color: var(--whitet1);
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: var(--sz35);
+  min-width: 108px;
+  text-align: center;
+}
+.rig_vend
+{
+  float: right;
+}
+.right_vidsc
+{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.riglis li {
+  position: relative;
+  padding-left: 2rem;
+  font-size: var(--sz16);
+  line-height: var(--sz24);
+  color: var(--black1);
+  margin: 1rem 0;
+  font-family: var(--roboto);
+}
+.riglis li:after
+{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background: url(/assets/images/rightcoinid/Relume.png) no-repeat scroll center; 
+}
+
+.rig_lis2 li {
+  list-style-type: number;
+  font-family: var(--opensans);
+  font-size: var(--sz16);
+  line-height: var(--sz24);
+  color: #333; 
+  margin: 4px 0;
+}
+.righd1 h6 span {
+  background: var(--primary);
+  font-size: var(--sz16);
+  line-height: var(--sz20);
+  padding: 4px 12px;
+  border-radius: var(--sz15);
+  display: inline-block;
+}
+.righd1 h6 {
+  margin: 0.7rem 0;
+  padding-bottom: 0.2rem;
+}
+.righd1 h3 {
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--black1);
+  margin: 1rem 0;
+}
+.righd1 {
+  padding-bottom: 0.2rem;
+}
+.rig_tabx {
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 #2222222e;
+  -webkit-box-shadow: 0 0 24px 0 #2222222e;
+  border-radius: var(--sz12);
+  margin: 1rem auto;
+  width: 98.5%;
+}
+.content-tabr1 {
+  padding-bottom: 2rem;
+}
+.rig_tim1 {
+  margin-top: 1rem;
+}
+.menu-tabr li a {
+  font-size: var(--sz16);
+  line-height: var(--sz30);
+  padding: 0.65rem 2.4rem;
+  border-radius: var(--sz25);
+  margin: 0 4px;
+  transition: var(--easeinout);
+}
+.menu-tabr li.active a, .menu-tabr li a:hover, .menu-tabr li a:focus {
+  background: var(--primary);
+  color: var(--whitet1);
+  outline: none;
+  box-shadow: none;
+}
+.menu-tabr {
+  border: 1px solid #e7e7e7;
+  padding: 0.5rem;
+  border-radius: var(--sz34);
+  margin: 2rem 0;
+}
+.rig_tabsc1 {
+  background: #f4f4f4;
+  padding: 6rem 0;
+}
+.is_dark .right_vidsc
+{
+  background: var(--black10);
+}
+.is_dark .rig_vcn p, .is_dark .riglis li, .is_dark .righd1 h3, .is_dark .rig_lis2 li
+{
+  color: #fff;
+}
+.is_dark .riglis li:after
+{
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+.is_dark .rig_tabsc1
+{
+  background: var(--blackb1);
+}
+.is_dark .menu-tabr
+{
+  border-color: var(--blackb2);
+}
+.is_dark .menu-tabr {
+  border-color: #555;
+}
+.is_dark .rig_tabx
+{
+  background: var(--blackb2);
+box-shadow: 0 0 24px 0 #66666669;
+-webkit-box-shadow: 0 0 24px 0 #66666669;
+}
+
+@media screen and (min-width:320px) and (max-width:1200px)
+{
+  .rbanner::after
+  {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+  }
+  .rigban
+  {
+    position: relative;
+    z-index: 10;
+  }
+  .rig_lis2 {
+    padding: 0 0 0 1rem;
+  }
+  .rig_lis2 li
+  {
+    font-size: var(--sz14);
+  }  
+}
+
+@media screen and (min-width:768px) and (max-width:1200px)
+{
+  .rbanner h1 {
+    font-size: 46px;
+  }
+  .rig_vcn h3, .righd1 h3
+  {
+    font-size: var(--sz22);
+    margin: 1rem 0;
+  }
+  .rig_vcn p
+  {
+    font-size: var(--sz16);
+  }
+  .rig_vcn h6 {
+    font-size: var(--sz20);
+    line-height: var(--sz22);
+  }  
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+  .rbanner
+  {
+    padding: 2rem 0;
+  }
+  .rbanner h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .rbanner p
+  {
+    font-size: var(--sz14);
+  }
+  .rig_vcn h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 1rem 0;
+  }
+  .rig_vcn h6 {
+    font-size: var(--sz16);
+    line-height: var(--sz20);
+  }
+  .rig_vcn p, .riglis li {
+    font-size: var(--sz14);
+    line-height: var(--sz22);
+  }
+  .menu-tabr li a {
+    font-size: var(--sz13);
+    line-height: var(--sz20);
+    padding: 0.6rem;
+    border-radius: var(--sz4);
+    text-align: center;
+  }
+  .menu-tabr
+  {
+    border-radius: var(--sz4);
+  }
+  .rig_tabsc1
+{
+  padding: 1rem 0;
+}
+.righd1 h3
+{
+  font-size: var(--sz20);
+  line-height: var(--sz30);
+}
+.rig_vim
+{
+  margin: 1rem 0;
+}
+.rig_vend
+{
+  float: none;
+}
+}
+@media screen and (min-width:576px) and (max-width:767px)
+{
+  .rig_vcn {
+    margin: 2rem 0;
+  }
+}

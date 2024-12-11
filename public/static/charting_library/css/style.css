@@ -1,0 +1,308 @@
+:root:not(.theme-dark) {
+  --tv-color-toolbar-button-text-active: #fff;
+  --tv-color-toolbar-button-text-active-hover: #fff;
+  --ui-lib-checkbox-color-accent: #ff8300;
+  --tv-color-popup-element-text-active: #fff;
+  --tv-color-popup-element-background-active: #aaa;
+  --tv-color-popup-element-text-hover: #000;
+  --tv-color-popup-element-background-hover: #eee;
+}
+
+html.theme-light [class*="centerElement-"] [class*="container-"] {
+  background-color: #ff8300 !important;
+}
+
+html.theme-light [class*="centerElement-"] [class*="closeButton-"] {
+  margin-top: 6px;
+}
+
+html.theme-light [class*="intent-primary-"] {
+  --ui-lib-intent-highlight-color: #ff8300 !important;
+}
+
+html.theme-light [class*="colorPickerWrap-"][class*="intent-primary-"] [class*="shadow-"] {
+  border-color: #ff8300 !important;
+  outline: none !important;
+}
+
+html.theme-light [class*="color-brand-"][class*="variant-secondary-"] {
+  border-color: #ff8300 !important;
+  color: #ff8300 !important;
+}
+
+html.theme-light [class*="color-brand-"][class*="variant-secondary-"]:hover {
+  background-color: #ff8300 !important;
+  color: #fff !important;
+  --ui-lib-button-default-color-bg: #ff8300;
+}
+
+html.theme-light [class*="color-brand-"][class*="variant-primary-"] {
+  --ui-lib-button-default-color-bg: #ff8300 !important;
+  --ui-lib-button-default-color-content: #fff !important;
+  --ui-lib-button-default-color-border: #ff8300 !important;
+}
+
+html.theme-light [class*="toggleButton-"].apply-common-tooltip.common-tooltip-vertical [class*="container-"]:hover [class*="background-"] {
+  fill: #ff8300;
+  stroke: #ff8300;
+}
+
+html.theme-light [class*="toggleButton-"].apply-common-tooltip.common-tooltip-vertical [class*="container-"]:hover [class*="arrow-"] {
+  stroke: #ffffff;
+}
+
+html.theme-light [class*="dialog-"] [class*="emptyState-"] [class*="image-"] svg circle {
+  fill: #FF8300;
+}
+
+html.theme-light .tv-spinner {
+  border-left-color: var(--tv-spinner-color, #ff8300);
+  border-top-color: var(--tv-spinner-color, #ff8300);
+}
+
+html.theme-light [class*="dialog-"] [class*="listContainer-"][class*="multiLineItemsContainer-"] [class*="wrap-"][class*="small-"] {
+  background-color: #f7f7f7;
+}
+
+html.theme-light [class*="dialog-"] [class*="listContainer-"][class*="multiLineItemsContainer-"] [class*="wrap-"][class*="small-"] [class*="item-"] {
+  background-color: #f7f7f7;
+  color: #1e2329;
+}
+
+html.theme-light [class*="dialog-"] [class*="listContainer-"][class*="multiLineItemsContainer-"] [class*="wrap-"][class*="small-"] [class*="flagWrap-"] {
+  color: #1e2329;
+}
+
+html.theme-light [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"][class*="selected-"] {
+  background-color: #bbb;
+}
+
+html.theme-light [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"][class*="selected-"]:hover {
+  background-color: #bbb;
+}
+
+html.theme-light [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"] {
+  background-color: #f9f9f9;
+}
+
+html.theme-light [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"]:hover {
+  background-color: #eee;
+}
+
+html.theme-light [class*="dialog-"] [class*="highlighted-"] {
+  color: #000;
+}
+
+html.theme-light [class*="drawingToolbar-"] [class*="button-"][class*="isActive-"][class*="accessible-"] [class*="bg-"] {
+  background-color: #aaa;
+}
+
+
+html.theme-light [class*="dialog-"] [class*="calendar-"] {
+  background-color: #f2f2f2;
+  color: #fff;
+}
+
+html.theme-light [class*="dialog-"] [class*="calendar-"] [class*="sub-header-"] {
+  background-color: #ddd;
+  color: #222;
+}
+
+html.theme-light [class*="dialog-"] [class*="calendar-"] [class*="view-month-"] [class*="weeks-"] [class*="week-"] [class*="day-"][class*="accent-color-"] {
+  --ui-lib-light-button-color-border: #ff8300;
+  --ui-lib-light-button-color-bg: #ff8300;
+}
+
+html.theme-light [class*="dialog-"] [class*="calendar-"] [class*="variant-ghost-"][class*="color-gray-"]:hover {
+  --ui-lib-light-button-default-color-border: #ddd;
+  --ui-lib-light-button-default-color-content: #222;
+  --ui-lib-light-button-default-color-bg: #ddd;
+}
+
+
+html.theme-light [class*="dialog-"] [class*="calendar-"] [class*="variant-quiet-primary-"][class*="color-gray-"][class*="selected-"] {
+  --ui-lib-light-button-default-color-content: #222;
+  --ui-lib-light-button-default-color-border: #ddd;
+  --ui-lib-light-button-default-color-bg: #ddd;
+}
+
+html.theme-light .chart-toolbar [class*="dateRangeWrapper-"] [class*="button-"][class*="isInteractive-"][class*="isActive-"] {
+  color: #ff8300;
+}
+
+html.theme-light [class*="dialog-"] [class*="selected-"][class*="container-"] [class*="description-"] [class*="highlighted-"]
+{
+  color: #222;
+}
+
+
+.theme-dark:root {
+  --tv-color-pane-background: #101010;
+  /* for header toolbar */
+  --tv-color-toolbar-button-text-active: #FF8300;
+  --tv-color-toolbar-button-text-active-hover: #ffffff;
+  --tv-color-popup-background: #222;
+  --tv-color-popup-element-text: #fff;
+  --tv-color-popup-element-text-hover: #fff;
+  --tv-color-popup-element-background-hover: #323232;
+  /* for hovering popup element */
+  --tv-color-popup-element-divider-background: #333;
+  --tv-color-popup-element-secondary-text: #aaa;
+  --tv-color-popup-element-hint-text: #FFF;
+  --tv-color-popup-element-text-active: #fff;
+  --tv-color-popup-element-background-active: #555;
+  --ui-lib-checkbox-color-accent: #ff8300;
+  /* for checkbox*/
+}
+
+html.theme-dark [class*="dialog-"] {
+  background-color: #222 !important;
+}
+
+html.theme-dark [class*="centerElement-"] [class*="container-"] {
+  background-color: #222 !important;
+}
+
+html.theme-dark [class*="centerElement-"] [class*="closeButton-"] {
+  margin-top: 6px;
+}
+
+html.theme-dark [class*="intent-primary-"] {
+  --ui-lib-intent-highlight-color: #ff8300 !important;
+}
+
+html.theme-dark [class*="colorPickerWrap-"][class*="intent-primary-"] [class*="shadow-"] {
+  border-color: #ff8300 !important;
+  outline: none !important;
+}
+
+html.theme-dark [class*="color-brand-"][class*="variant-secondary-"] {
+  border-color: #ff8300 !important;
+  color: #ff8300 !important;
+}
+
+html.theme-dark [class*="color-brand-"][class*="variant-secondary-"]:hover {
+  background-color: #ff8300 !important;
+  color: #fff !important;
+  --ui-lib-button-default-color-bg: #ff8300;
+}
+
+html.theme-dark [class*="color-brand-"][class*="variant-primary-"] {
+  --ui-lib-button-default-color-bg: #ff8300 !important;
+  --ui-lib-button-default-color-content: #fff !important;
+  --ui-lib-button-default-color-border: #ff8300 !important;
+}
+
+html.theme-dark [class*="dialog-"] [class*="accessible-"]:hover {
+  background-color: #323232 !important;
+}
+
+html.theme-dark [class*="dialog-"] [class*="accessible-"][class*="active-"] {
+  background-color: #555 !important;
+}
+
+html.theme-dark [class*="dialog-"] [class*="emptyState-"] [class*="image-"] svg circle {
+  fill: #FF8300;
+}
+
+html.theme-dark [class*="dialog-"] [class*="listContainer-"][class*="multiLineItemsContainer-"] [class*="wrap-"][class*="small-"] {
+  background-color: #121212;
+}
+
+html.theme-dark [class*="dialog-"] [class*="listContainer-"][class*="multiLineItemsContainer-"] [class*="wrap-"][class*="small-"] [class*="item-"] {
+  background-color: #121212;
+  color: #fff;
+}
+
+html.theme-dark [class*="dialog-"] [class*="listContainer-"][class*="multiLineItemsContainer-"] [class*="wrap-"][class*="small-"] [class*="flagWrap-"] {
+  color: #fff;
+}
+
+html.theme-dark [class*="dialog-"] [class*="inputContainer-"] [class*="input-"] {
+  color: #ccc;
+}
+
+html.theme-dark [class*="dialog-"] [class*="inputContainer-"] [class*="input-"]::-moz-placeholder {
+  color: #ccc;
+}
+
+html.theme-dark [class*="dialog-"] [class*="inputContainer-"] [class*="input-"]::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+html.theme-dark .tv-spinner {
+  border-left-color: var(--tv-spinner-color, #ff8300);
+  border-top-color: var(--tv-spinner-color, #ff8300);
+}
+
+html.theme-dark [class*="dialog-"] [class*="wrapper-"] [class*="bubble-"][class*="appearance-default-"][class*="active-"][class*="gray-"] {
+  background-color: #555;
+  border-color: #555;
+  color: #fff;
+}
+
+html.theme-dark [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"][class*="selected-"] {
+  background-color: #444;
+}
+
+html.theme-dark [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"][class*="selected-"]:hover {
+  background-color: #444;
+}
+
+html.theme-dark [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"] {
+  background-color: #1a1a1a;
+}
+
+html.theme-dark [class*="dialog-"] [class*="searchSourceItemsContainer-"] [class*="container-"]:hover {
+  background-color: #121212;
+}
+
+html.theme-dark [class*="dialog-"] [class*="highlighted-"] {
+  color: #ff8300;
+}
+
+html.theme-dark [class*="toggleButton-"].apply-common-tooltip.common-tooltip-vertical [class*="container-"]:hover [class*="background-"] {
+  fill: #ff8300;
+  stroke: #ff8300;
+}
+
+html.theme-dark [class*="toggleButton-"].apply-common-tooltip.common-tooltip-vertical [class*="container-"]:hover [class*="arrow-"] {
+  stroke: #ffffff;
+}
+
+html.theme-dark [class*="dialog-"] [class*="calendar-"] {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+html.theme-dark [class*="dialog-"] [class*="calendar-"] [class*="sub-header-"] {
+  background-color: #101010;
+  color: #eee;
+}
+
+html.theme-dark [class*="dialog-"] [class*="calendar-"] [class*="view-month-"] [class*="weeks-"] [class*="week-"] [class*="day-"][class*="accent-color-"] {
+  --ui-lib-light-button-color-border: #ff8300;
+  --ui-lib-light-button-color-bg: #ff8300;
+}
+
+html.theme-dark [class*="dialog-"] [class*="calendar-"] [class*="variant-ghost-"][class*="color-gray-"]:hover {
+  --ui-lib-light-button-default-color-border: #111;
+  --ui-lib-light-button-default-color-content: #fff;
+  --ui-lib-light-button-default-color-bg: #111;
+}
+
+html.theme-dark [class*="dialog-"] [class*="container-"][class*="disabled-"][class*="intent-default-"] {
+  background-color: #111;
+  border-color: #323232;
+  color: #777;
+}
+
+html.theme-dark [class*="dialog-"] [class*="calendar-"] [class*="variant-quiet-primary-"][class*="color-gray-"][class*="selected-"] {
+  --ui-lib-light-button-default-color-content: #fff;
+  --ui-lib-light-button-default-color-border: #111;
+  --ui-lib-light-button-default-color-bg: #111;
+}
+
+html.theme-dark [class*="drawingToolbar-"] [class*="button-"][class*="isActive-"][class*="accessible-"] [class*="bg-"] {
+  background-color: #333;
+}

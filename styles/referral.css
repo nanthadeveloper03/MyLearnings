@@ -1,0 +1,429 @@
+  /*referral*/
+  .balance_btn button .sep1 {
+    background: #1d1d1d3d;
+    width: 1px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 2px 0 4px;
+  }
+  .balance_btn button img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+  }
+  .user_balance_dashboard .card-info p.fw600
+  {
+    font-weight: 600;
+  }
+  .cm_faq2 .cm_faq1 .toggle-content p {
+    font-size: 14px;
+  }
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle {
+    border-width: 0 0 1px;
+    border-radius: 0;
+    padding: 0 3rem 1rem 0;
+    margin: 1rem 0;
+  }
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle:last-child
+  {
+    border: none;
+  }
+  .cm_faq2 {
+    border: 1px solid #E7E7E7;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin: 0 0 2rem;
+  }
+  .cm_faq2 .cm_faq1 .toggle-title
+  {
+    line-height: 24px;
+  }
+
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle.active::after {
+    transform: translateY(-50%) rotate(0deg);
+    -moz-transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) rotate(0deg);
+  }
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle::after {
+    right: 0;
+    z-index: 10;
+  }
+  .vw a {
+    color: var(--primary);
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    margin: 1rem 0;
+  }
+  .cm_table1 thead, .cm_table1 thead th
+  {
+    background: #FAFAFA;
+    border: none;
+  }
+  
+  .cm_table1 
+  {
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  .cm_table1 .table
+  {
+    margin: 0;
+  }
+  .cm_table1 thead th, .cm_table1 tbody td
+  {
+    font-family: var(--opensans);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--black8);
+    padding: 1rem;
+    text-align: center;
+  }
+  .cm_table1 tbody td
+  {
+    border-color: #E7E7E7;
+  }
+  .cm_table1 tbody tr:last-child td
+  {
+    border: none;
+  }
+  .cm_table1 .table > :not(:first-child)
+  {
+    border: none !important;
+  }
+  .num-text .select1 {
+    width: 90px;
+    padding: 0px 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    top: -3px;
+    position: relative;
+  }
+  .cm_ingrp1
+  {
+    margin: 2rem 0;
+  }
+  .cm_ingrp1 .form-control, .cm_ingrp1 .btn {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .cm_ingrp1 .form-control {
+    background: #000D1D0F;
+    height: 48px;
+  }
+  .cm_ingrp1 .btn {
+    background: var(--primary);
+    min-width: 60px;
+    border-radius: 5px !important;
+  }
+  .cm_ingrp1 .input-group-text {
+    border: none !important;
+    background: #f0f0f1;
+  }
+  .cm_formd1 .block-text1 p span {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 7px;
+  }
+  .cm_ingrp1 .form-control::-moz-placeholder
+  {
+    color: #000d1d3a;
+  }
+  .cm_formd1
+  {
+    padding: 1.8rem 2rem 2.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    margin: 2rem 0;
+  }
+/*referral*/
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+  .block-text1 h3
+  {
+    font-size: var(--sz26);
+  }
+  .cm_balt h5, .cm_balt h4
+  {
+    font-size: var(--sz15);
+  }
+  .cm_balt .btn-action
+  {
+    padding: 8px 20px;
+    min-width: 100px;
+  }
+  .cm_table1 thead th, .cm_table1 tbody td
+  {
+    padding: 5px 20px;
+    white-space: nowrap;  font-size: 13px;
+  }
+  .cm_infrm1 .input-group.cm_ingrp2 {
+    max-width: 100% !important;
+  }
+
+  .tit
+  {
+    font-size: var(--sz17);
+  }
+  
+  .co_tx
+  {
+    padding: 5px;
+    font-size: var(--sz13);
+  }
+  .lisw_rig
+  {
+    text-align: right;
+  }
+  .cm_lisw2,
+  .cm_lisw3,
+  .lisw_rw {
+    padding: 0.2rem 1rem;
+  }
+
+  .lisw_rw2 span,
+  .lisw_rw3 span,
+  .hintx,
+  .cm_lisw span,
+  .user_balance_dashboard .cm_faq2 .cm_faq1 .toggle-content p {
+    font-size: var(--sz13);
+  }
+
+  .cm_frmw2 .select1,
+  .cm_frmw2 .form-control,
+  .select2 {
+    font-size: var(--sz14);
+  }
+
+  .cm_frmw2 .form-label {
+    font-size: var(--sz15);
+  }
+
+  .menu-tab2 li a {
+    font-size: var(--sz18);
+  }
+
+  .menu-tab2 li a::after {
+    width: 2.75rem;
+  }
+
+  .cm_faq2 {
+    padding: 1rem !important;
+  }
+
+  .cm_faq2 .cm_faq1 .toggle-content p {
+    width: 100%;
+  }
+
+  .cm_inw {
+    padding: 3.5rem 0 1rem;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  .block-text1 h4 {
+    font-size: 28px;
+  }
+  .cm_formd1
+  {
+    padding: 1rem;
+    margin: 0.2rem 0 1rem;
+  }
+  .user_balance_dashboard .card-info p
+  {
+    font-size: var(--sz16);
+  }
+  .block-text1 h4 {
+    font-size: 28px;
+  }
+  .cm_inw {
+    padding: 1rem 0 1rem;
+  }
+
+  .menu-tab2 {
+    padding-bottom: 1.5rem;
+  }
+
+  .menu-tab2 li {
+    padding-right: 1rem;
+  }
+
+  .menu-tab2 li a {
+    font-size: var(--sz15);
+    padding: 0 0 0.8rem 0;
+  }
+
+  .menu-tab2 li a::after {
+    width: 3.75rem;
+  }
+
+  .cm_inwbk1 {
+    padding: 15px 10px;
+  }
+
+  .cm_frmw2 .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .cm_frmw2 .form-label {
+    font-size: var(--sz15);
+    margin: 0 0 0.6rem;
+  }
+
+  .cm_frmw2 .form-control,
+  .select2,
+  .cm_frmw2 .select1 {
+    height: 38px;
+    padding: 8px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .cm_lisw2,
+  .cm_lisw3,
+  .lisw_rw {
+    padding: 0.2rem 1rem;
+  }
+
+  .lisw_rw2 span,
+  .lisw_rw3 span,
+  .hintx,
+  .cm_lisw span,
+  .user_balance_dashboard .cm_faq2 .cm_faq1 .toggle-content p {
+    font-size: var(--sz13);
+    line-height: 20px;
+
+  }
+
+  .lisw_rw2 .lisw_rig2,
+  .lisw_rig3,
+  .lisw_rig {
+    text-align: right;
+  }
+
+  .lisw_rw2 span,
+  .lisw_rw3 span,
+  .cm_lisw span {
+    width: 50%;
+    word-break: break-all;
+  }
+
+  .cm_faq2 {
+    padding: 10px;
+  }
+
+  .user_balance_dashboard .cm_faq1 .toggle-title {
+    font-size: 12px;
+  }
+
+  .user_balance_dashboard .cm_faq1 .flat-accordion .flat-toggle,
+  .user_balance_dashboard .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle {
+    padding: 0 1rem 1rem 0;
+    margin: 5px 0;
+  }
+
+  .cm_faq2 .cm_faq1 .flat-accordion .flat-toggle::after {
+    width: 20px;
+    height: 20px;
+    top: 15px;
+  }
+
+  .block-text1 h3 {
+    line-height: 32px;
+    font-size: 23px;
+  }
+
+  .rew_tabsc .cm_table1 {
+    margin: 20px 0 5px;
+  }
+
+  .rew_tabsc .cm_table1 thead th,
+  .rew_tabsc .cm_table1 tbody td {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 7px;
+  }
+
+  .cm_frmw2 .btn-action {
+    padding: 5px 20px;
+  }
+
+  .rew_tabsc .vw a {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .rew_tabsc .cm_table1 thead th,
+  .rew_tabsc .cm_table1 tbody td {
+    white-space: nowrap;
+  }
+  .cm_balt h5
+  {
+    font-size: var(--sz16);
+    margin: 5px 0;
+  }
+  .cm_balt h4
+  {
+    font-size: var(--sz18);
+    margin: 5px 0;
+  }
+  .cm_balt .btn-action
+  {
+    float: left;
+    padding: 7px 20px;
+    margin-top: 15px;
+  }
+  .tit
+  {
+    font-size: var(--sz16);
+    margin: 10px 0;
+  }
+  .co_tx
+  {
+    font-size: 14px;padding: 5px;
+  }
+  .cm_ingrp2 .grpbtn .btn
+  {
+    padding-right: 5px;
+    padding-left: 0;
+  }
+  .cm_ingrp2 .grpbtn .btn + .btn
+  {
+    padding-left: 5px;
+  }
+  .cm_infrm1 .input-group.cm_ingrp2 {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+  .cm_inw .cm_faq2 {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+  .rsp_ma5 {
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+  }
+
+  .rsp_pd5 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .cm_inw .cm_faq2 {
+    margin-top: 4rem;
+    padding: 1rem;
+  }
+}
+

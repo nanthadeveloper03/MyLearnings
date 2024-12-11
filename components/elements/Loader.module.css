@@ -1,0 +1,68 @@
+
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(0px);
+  background-color: #ffff;
+  z-index: 9999;
+}
+
+.loader {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.loaderImage {
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/images/logoIcon.png');
+  background-size: cover;
+  border-radius: 50%;
+  animation: flash 2s infinite;
+}
+
+.loaderBorder {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  width: 102px;
+  /* 120px + 16px * 2 */
+  height: 102px;
+  /* 120px + 16px * 2 */
+  border: 3px solid #ff8300;
+  border-top: 3px solid #c4c2c2;
+  border-bottom: 3px solid #c4c2c2;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,23 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Iconly/Light-Outline/Upload">
+<g id="Upload">
+<g id="Group 3">
+<mask id="mask0_2848_57004" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="9" width="20" height="15">
+<path id="Clip 2" fill-rule="evenodd" clip-rule="evenodd" d="M2 9.29492H21.9996V23.0389H2V9.29492Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2848_57004)">
+<path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M17.565 23.0389H6.435C3.99 23.0389 2 21.0499 2 18.6039V13.7289C2 11.2839 3.99 9.29492 6.435 9.29492H7.368C7.782 9.29492 8.118 9.63092 8.118 10.0449C8.118 10.4589 7.782 10.7949 7.368 10.7949H6.435C4.816 10.7949 3.5 12.1109 3.5 13.7289V18.6039C3.5 20.2229 4.816 21.5389 6.435 21.5389H17.565C19.183 21.5389 20.5 20.2229 20.5 18.6039V13.7199C20.5 12.1069 19.188 10.7949 17.576 10.7949H16.633C16.219 10.7949 15.883 10.4589 15.883 10.0449C15.883 9.63092 16.219 9.29492 16.633 9.29492H17.576C20.015 9.29492 22 11.2799 22 13.7199V18.6039C22 21.0499 20.01 23.0389 17.565 23.0389Z" fill="black"/>
+</g>
+</g>
+<g id="Group 6">
+<mask id="mask1_2848_57004" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="11" y="2" width="2" height="15">
+<path id="Clip 5" fill-rule="evenodd" clip-rule="evenodd" d="M11.25 2.5H12.75V16.0409H11.25V2.5Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_2848_57004)">
+<path id="Fill 4" fill-rule="evenodd" clip-rule="evenodd" d="M12 16.041C11.586 16.041 11.25 15.705 11.25 15.291V3.25C11.25 2.836 11.586 2.5 12 2.5C12.414 2.5 12.75 2.836 12.75 3.25V15.291C12.75 15.705 12.414 16.041 12 16.041Z" fill="black"/>
+</g>
+</g>
+<path id="Fill 7" fill-rule="evenodd" clip-rule="evenodd" d="M9.08569 6.92902C8.89469 6.92902 8.70269 6.85602 8.55669 6.71002C8.26369 6.41802 8.26169 5.94402 8.55469 5.65002L11.4697 2.72202C11.7507 2.43902 12.2507 2.43902 12.5317 2.72202L15.4477 5.65002C15.7397 5.94402 15.7387 6.41802 15.4457 6.71002C15.1517 7.00202 14.6777 7.00202 14.3857 6.70802L12.0007 4.31402L9.61669 6.70802C9.47069 6.85602 9.27769 6.92902 9.08569 6.92902Z" fill="black"/>
+</g>
+</g>
+</svg>

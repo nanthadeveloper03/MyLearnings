@@ -1,0 +1,42 @@
+/* components/CustomSelect.module.css */
+.sdropdown {
+    position: relative;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .sdropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  
+  .sdropdownItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sdropdownItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }

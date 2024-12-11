@@ -1,0 +1,462 @@
+.user_section_dashboard {
+    /* background: #1D1D1D05; */
+    padding: 28px 32px 28px 32px;
+    border-radius: 12px;
+}
+
+.user-panel {
+    display: flex;
+    align-items: self-start;
+    width: auto;
+}
+
+.user-panel h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+}
+
+.user_account_details .row {
+    width: 100%;
+}
+
+.user_account_details .detail_box {
+    width: auto;
+    flex: 1 1 auto;
+}
+
+.user_account_details .detail_box p {
+    color: var(--menuColor);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 6px;
+}
+
+.user_account_details .detail_box h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: var(--onsurface);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.verify_section_dashboard h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.top .top-list li::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 3%;
+    right: 0;
+    width: 97%;
+    border: 1px solid var(--border-color);
+}
+
+
+
+.top .top-list li:last-child:after {
+    display: block;
+    max-width: 90%;
+}
+
+.top .top-list li:first-child {
+    width: 51%;
+}
+
+.top .top-list li {
+    position: relative;
+    width: 24.5%;
+}
+
+.top .top-list li h6 span {
+    font-size: 12px;
+    text-align: center;
+    line-height: 17px;
+    font-weight: 500;
+    background: var(--border-color) !important;
+    border: none;
+}
+
+.top .top-list li.active h6 span {
+    border: 1.4px solid var(--primary);
+    background: var(--primary) !important;
+    color: #fff !important;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.top .top-list li h6 span {
+    min-width: 18px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.top .top-list li.active h6 span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.verify_section_dashboard .card-info.verify_account_box {
+    background: #FF83000D;
+    border: 1px solid var(--primary);
+    padding: 17px 21px 17px 21px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 95.5%;
+}
+
+.card-info.verify_account_box.verify_box_plain {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    max-width: 96%;
+}
+
+.verify_section_dashboard h4 {
+    font-size: 19.38px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+.verify_section_dashboard h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: var(--menuColor);
+    display: flex;
+    gap: 10px;
+}
+
+.verify_section_dashboard h6 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    display: flex;
+    gap: 7px;
+}
+
+.verify_btn.btnverify button {
+    padding: 5px 12px 5px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    border: none;
+    background: var(--primary);
+    color: #fff;
+}
+
+
+.user_balance_dashboard .card-info {
+    padding: 20px 32px 20px 32px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.user_balance_dashboard .card-info.referral_earning_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_balance_dashboard .card-info p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+}
+
+.balance_btn button {
+    padding: 7.6px 20.8px;
+    border-radius: 24px;
+    border: 1px solid var(--onsurface);
+    background: transparent;
+    color: var(--onsurface);
+    font-weight: 600;
+}
+
+.balance_btn.btn1 button {
+    padding: 7.6px 20.8px;
+    border-radius: 24px;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    color: #fff
+}
+
+.invitecard .card-info {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.invitecard .card-info h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.invitecard .card-info p {
+    color: var(--menuColor);
+}
+
+.invitecard .card-info a {
+    color: var(--primary);
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: auto !important;
+}
+
+.search-area .form-control {
+    background: transparent;
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 42px;
+    height: 46px;
+    padding: 5px 30px;
+    font-size: 16px;
+    border: 1px solid var(--border-color);
+    border-right: 1px solid transparent;
+}
+
+.search-area .input-group-text {
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px;
+    padding: 0 30px;
+    border-left: 1px solid transparent !important;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0.532rem 0.75rem;
+    border: 1px solid var(--border-color);
+    background: transparent;
+}
+
+.row.wallet_table_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row.wallet_table_head h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: var(--onsurface);
+    width: auto;
+    margin-bottom: 0;
+}
+
+.switchfield .swtich_label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: var(--onsurface);
+}
+
+.wallet_listtable {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.wallet_listtable .MuiDataGrid-root {
+    border: none !important;
+}
+
+.wallet_listtable .MuiDataGrid-columnHeader {
+    border-bottom: 1px solid var(--border-color) !important;
+    color: var(--text);
+}
+
+.wallet_listtable .MuiDataGrid-cell {
+    border-top: 1px solid var(--border-color) !important;
+    color: var(--text);
+}
+
+.wallet_listtable .MuiDataGrid-cell a {
+    display: flex;
+    gap: 7px;
+    font-weight: normal;
+    align-items: center;
+}
+
+.wallet_listtable .MuiDataGrid-withBorderColor {
+    border-color: var(--border-color) !important
+}
+
+.wallet_listtable .MuiDataGrid-row--borderBottom {
+    background: var(--bg) !important;
+    color: var(--text);
+}
+
+.wallet_listtable .MuiTablePagination-actions button {
+    color: var(--text) !important;
+}
+
+.wallet_listtable .MuiSelect-select {
+    color: var(--text) !important;
+}
+
+.wallet_listtable .MuiInputBase-root svg path {
+    color: var(--text) !important;
+}
+
+.MuiSwitch-track {
+    background-color: var(--bs-gray-600);
+    height: 14px;
+}
+
+.MuiSwitch-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width:991px) {
+    .balance_btn button {
+        width: 100%;
+        font-size: 13px !important;
+        white-space: nowrap;
+    }
+
+    .d-flex.bal_btn_section {
+        flex-wrap: wrap !important;
+        gap: 15px;
+    }
+
+    .me-3.balance_btn {
+        flex: 1;
+        margin: 0 !important;
+    }
+
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: auto !important;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .user_section_dashboard {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .user_balance_dashboard .card-info {
+        padding: 15px;
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        margin-bottom: 15px;
+    }
+
+    .wallet_listtable {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top .top-list li {
+        position: relative;
+        width: 100% !important;
+    }
+
+    .verify_section_dashboard .card-info.verify_account_box {
+        max-width: 100%;
+    }
+
+    .verify_section_dashboard .card-info.verify_account_box:first-child {
+        max-width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .d-flex.bal_btn_section {
+        flex-wrap: wrap !important;
+        gap: 15px;
+    }
+
+    .me-3.balance_btn {
+        flex: 1;
+        margin: 0 !important;
+    }
+
+    .balance_btn button {
+        width: 100%;
+        font-size: 13px !important;
+        white-space: nowrap;
+    }
+
+    .user_balance_dashboard .card-info .num-text.mb-4 {
+        font-size: 26px;
+        margin-bottom: 20px !important;
+    }
+
+    .input-group {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/*dark theme*/
+.is_dark .sidebar-menu li.active
+{
+    background: rgb(32, 32, 32);
+}
+.is_dark .sidebar-menu li
+{
+    color: #fff;
+}
+.is_dark .sidebar-menu li svg, .is_dark .sidebar-menu li svg path {
+    fill: #fff !important;
+    color: #fff;
+  }

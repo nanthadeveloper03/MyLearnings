@@ -1,0 +1,13 @@
+.cm_faq1 .toggle-title
+{
+  font-size: var(--sz22);
+}
+.cm_faq1 .flat-accordion .flat-toggle::after
+{
+transform: rotate(-180deg);
+top: var(--sz28);
+}
+.cm_faq1 .flat-accordion .flat-toggle.active::after
+{
+  transform: rotate(360deg);
+}

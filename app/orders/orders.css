@@ -1,0 +1,186 @@
+.menu-tab2 {
+  border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.menu-tab2 li a {
+  font-family: var(--inter);
+  font-weight: var(--fw500);
+  font-size: var(--sz20);
+  line-height: var(--sz26);
+  position: var(--posrel);
+  padding: 0 0 1rem 0;
+  color: var(--black9);
+}
+
+.menu-tab2 li.active a,
+.menu-tab2 li a:hover {
+  color: var(--black8);
+}
+
+.menu-tab2 li a::after {
+  content: "";
+  position: var(--posabs);
+  width: 69%;
+  height: var(--sz6);
+  border-radius: var(--sz4);
+  left: 50%;
+  bottom: -3px;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.menu-tab2 li a:hover::after,
+.menu-tab2 li.active a::after {
+  background: var(--primary);
+}
+
+.menu-tab2 li {
+  padding-right: 3rem;
+}
+
+.selectd1 {
+  border: 1px solid rgba(29, 29, 29, 0.2);
+  background: #fff;
+  border-radius: var(--sz8);
+  height: var(--sz40);
+  position: relative;
+  min-width: 11rem;
+}
+
+.selectd1 select {
+  appearance: none;
+  border: none;
+  padding: 4px 1rem;
+  height: 38px;
+  border-radius: var(--sz8);
+  background: #fff;
+  font-size: var(--sz14);
+  color: var(--black8);
+  font-family: var(--opensans);
+  width: 100%;
+}
+
+.selectd1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #222;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  right: 10px;
+  top: 17px;
+}
+
+
+/* Style for the table headers (acting as <th>) */
+.custom-table .rdt_TableHeadRow {
+  background: #FAFAFA;
+  text-align: center;
+}
+
+.custom-table .rdt_TableCol {
+  padding: 1rem;
+  font-size: var(--sz15);
+  line-height: var(--sz27);
+  font-family: var(--opensans);
+  color: var(--black8);
+  font-weight: var(--fw400);
+  text-align: center;
+}
+
+/* Style for table cells (acting as <td>) */
+.custom-table .rdt_TableRow {
+  border-color: #E7E7E7;
+  text-align: center;
+}
+
+.custom-table .rdt_TableCell {
+  font-size: var(--sz16);
+  line-height: var(--sz27);
+  font-family: var(--opensans);
+  color: var(--black8);
+  padding: 1rem;
+}
+
+/* Optional: Hover effect for table rows */
+.custom-table .rdt_TableRow:hover {
+  background-color: #eee;
+}
+
+.rev_table1 {
+  border: 1px solid #E7E7E7;
+  border-radius: var(--sz12);
+  margin: 2rem 0;
+}
+
+.btn.delete_btn:focus
+{
+  box-shadow: none;
+  outline: none;
+}
+
+.is_dark .btn.delete_btn:hover svg, .is_dark .btn.delete_btn:focus svg
+{
+  fill: #fff;
+}
+
+.btn.delete_btn:hover svg,
+.btn.delete_btn:focus svg {
+  fill: #000;
+}
+
+.btn.delete_btn svg {
+  width: var(--sz14);
+  height: var(--sz20);
+  fill: #787878;
+  transition: 0.5s ease-in-out all 0s;
+  -webkit-transition: 0.5s ease-in-out all 0s;
+}
+
+.is_dark .selectd1 {
+  border-color: #444;
+  background: #333;
+}
+
+.is_dark .selectd1 select {
+  color: #fff;
+  background: #333;
+}
+
+.is_dark .selectd1:after {
+  border-top-color: #fff;
+}
+
+.is_dark .menu-tab2 {
+  border-color: #333;
+}
+
+.is_dark .custom-table .rdt_TableHeadRow {
+  background: #333;
+}
+
+.is_dark .custom-table .rdt_TableCell {
+  color: #fff;
+}
+
+.is_dark .custom-table .rdt_TableRow:hover {
+  background-color: #333;
+  border-color: #333;
+  outline-color: #333;
+}
+.is_dark .custom-table .rdt_TableCol {
+  color: #fff;
+  background: #222;
+}
+.is_dark .rev_table1 {
+  border-color: #333;
+}
+.custom-table
+{
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}

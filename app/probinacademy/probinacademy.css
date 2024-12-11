@@ -1,0 +1,354 @@
+/* introduction */
+.probin_bann1 {
+    padding: 0rem 0 0;
+    background: #F6F9FB;
+    background-image: url(/assets/images/probinacademy/metamaskim.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    min-height: 700px;
+    padding: 16rem 0;
+    margin-bottom: -20px;
+}
+
+.probin_bann1 .abt_cnb1 h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.is_dark .probin_bann1 {
+    background-color: #202020;
+}
+
+.probin_mod1 {
+    padding: 6rem 0 0;
+}
+
+.probin_bann1 .abt_cnb1 h1,
+.probin_bann1 .abt_cnb1 p {
+    color: var(--black8);
+}
+
+.is_dark .probin_bann1 .abt_cnb1 h1,
+.is_dark .probin_bann1 .abt_cnb1 p {
+    color: #fff;
+}
+
+.is_dark .pa_cn {
+    color: #fff;
+}
+
+.exp_sc2 {
+    padding: 6rem 0;
+}
+
+.ecn1 {
+    padding-top: 2.5rem;
+}
+
+.ecn1 h6 {
+    font-family: var(--inter);
+    font-size: var(--sz15);
+    line-height: var(--sz20);
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.ecn1 h3 {
+    font-family: var(--inter);
+    font-size: 48px;
+    line-height: 60px;
+    margin: 1rem 0;
+    color: var(--black1);
+    padding: 4px 0;
+}
+
+.ecn1 p {
+    font-family: var(--opensans);
+    font-size: var(--sz16);
+    line-height: var(--sz24);
+    margin: 0 0 1rem;
+    color: #7A7A7A;
+}
+
+.pa_rw {
+    width: 100%;
+    padding-left: 5.4rem;
+    position: relative;
+    min-height: 4.4rem;
+    margin: 1rem 0;
+}
+
+.pa_cn {
+    font-size: 23px;
+    color: #040430;
+    line-height: 30px;
+}
+
+.pa_ico {
+    width: 4.4rem;
+    height: 4.4rem;
+    background: var(--primary);
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}
+
+/*modules*/
+.abt_scal .block-text1 h6.pri_hd span {
+    background: var(--primary);
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: var(--sz8);
+    font-weight: 400;
+    font-size: var(--sz20);
+}
+
+.abt_scal .block-text1 h6.pri_hd {
+    margin: 1.2rem 0 1.8rem;
+}
+
+.probm_cn h6 {
+    font-size: var(--sz16);
+    letter-spacing: 1.5px;
+}
+
+.probm_cn h4 {
+    font-size: 48px;
+    line-height: 60px;
+    margin: 1.6rem 0 1.2rem;
+}
+
+.probm1 img {
+    float: right;
+}
+
+.probm1 {
+    padding-right: 2.2rem;
+}
+
+/*modules*/
+
+
+/*community*/
+
+.com_soc {
+    width: 18%;
+    border-radius: var(--sz20);
+    padding: 1.25rem 0.9rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cs_ico {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 0.1rem;
+}
+
+.com_soc a {
+    font-size: var(--sz20);
+    line-height: var(--sz32);
+    text-align: center;
+    font-family: var(--opensans);
+    font-weight: var(--fw400);
+    transition: 1s ease-in-out all 0s;
+    -webkit-transition: 1s ease-in-out all 0s;
+}
+
+.cm_inthd2 h3 {
+    font-size: var(--sz32);
+    line-height: 38px;
+    color: var(--black8);
+    margin: 1rem 0 0.8rem;
+}
+
+.cm_inthd2 h3 span {
+    margin-left: 8px;
+}
+
+.cm_inthd2 p {
+    font-size: var(--sz16);
+    line-height: var(--sz34);
+    color: var(--black1);
+    margin: 0 0 1rem;
+    opacity: 0.45;
+}
+
+.com_midhd {
+    width: 47%;
+    margin: 2rem auto 2rem;
+}
+
+.comsoc_sc1 {
+    padding-bottom: 6.8rem;
+    padding-top: 3.5rem;
+}
+
+.is_dark .cm_inthd2 h3 {
+    color: #fff;
+}
+
+.is_dark .cm_inthd2 p {
+    color: #fff;
+}
+
+.is_dark .com_soc {
+    background: #202020;
+    box-shadow: 0 0 24px 0 #252525;
+    -webkit-box-shadow: 0 0 24px 0 #252525;
+}
+
+.is_dark .com_soc:hover a {
+    color: var(--primary);
+}
+
+.is_dark .comm_link:hover {
+    border-color: var(--primary);
+}
+
+.is_dark .cs_ico img {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/*community*/
+
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .com_soclis {
+        gap: 7px !important;
+    }
+
+    .comm_link a {
+        font-size: var(--sz12);
+    }
+
+    .com_soc a {
+        font-size: var(--sz15);
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+.rsp_w90
+{
+    width: 80% !important;
+}
+}
+@media screen and (min-width:320px) and (max-width:1200px) {
+    .comsoc_sc1 {
+        padding-bottom: 1rem;
+        padding-top: 0;
+    }
+
+    .cm_inthd2 h3 {
+        font-size: var(--sz22);
+        line-height: 28px;
+    }
+
+    .cm_inthd2 p {
+        font-size: var(--sz14);
+        line-height: var(--sz24);
+    }
+
+    .com_soc a {
+        font-size: var(--sz13);
+        line-height: var(--sz20);
+    }
+
+    .gap-3.com_soclis {
+        gap: 5px !important;
+    }
+
+    .probin_bann1 {
+        padding: 6rem 0;
+        min-height: 400px;
+    }
+
+    .probin_bann1 .abt_cnb1 h1,
+    .ecn1 h3 {
+        font-size: 24px;
+        line-height: 40px;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .ecn1 p {
+        font-size: var(--sz13);
+    }
+
+    .pa_cn {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pa_ico {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .pa_ico img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .pa_rw {
+        padding-left: 3.4rem;
+        min-height: 2.4rem;
+        margin: 10px 0;
+    }
+
+    .exp_sc2 {
+        padding: 3rem 0;
+    }
+
+    .probm_cn h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .ecn1 {
+        padding-top: 0;
+      }
+      .probm_cn .btn-action {
+        padding: 7px 18px;
+        font-size: 14px;
+      }
+      .probin_mod1 {
+        padding: 4rem 0 0;
+      }
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+    .com_soc {
+        width: 49%;
+    }
+
+    .probm_cn {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .probin_bann1 {
+        background-size: 160px auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .probin_bann1 {
+        background-size: 280px auto;
+    }
+    .abt_cnb1 p
+    {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width:768px)
+{
+    .probin_bann1 .abt_cnb1 p
+    {
+        width: 44%;
+    }
+}

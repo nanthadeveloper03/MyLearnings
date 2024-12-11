@@ -1,0 +1,265 @@
+:root
+{
+  --blackb1: #202020;
+  --blackb2: #323232;
+  --whiteb1: #F6F9FB;
+  --whiteb2: #fafafa;
+  --whiteb3: #e7e7e7;
+  --whitet1: #fff;
+}
+.cbanner
+{
+    background: var(--whiteb1);
+    padding: 2rem 0;
+}
+.cban_hd {
+    background: var(--primary);
+    display: inline-block;
+    width: max-content;
+    padding: 5px 10px;
+    color: var(--whitet1);
+    letter-spacing: var(--sz2);
+    border-radius: var(--sz5);
+    margin: 0 0 50px;
+  }
+  .cbanner h1 {
+    margin: var(--sz0);
+    font-size: 60px;
+    line-height: 56px;
+    color: var(--black1);
+    line-height: 81.6px;
+  }
+  .cbanner p{
+    font-size: var(--sz18);
+    line-height: var(--sz28);
+    color: var(--black1);
+    letter-spacing: var(--sz0);
+    margin: 20px 0 40px;
+  }
+
+  .cbanner .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .crypt_serv {
+    padding: 1.4rem 0;
+  }
+
+  .crypt_serv .service-item {
+    background-color: var(--whiteb2);
+      padding: 14px 0px;
+      transition: all ease-in-out 0.4s;      
+      display: block;
+      width: 85%;
+      margin: 1rem auto 3rem;
+      text-align: center;
+      border: 2px solid var(--whiteb2);
+      border-radius: var(--sz12);
+  }
+
+  .crypt_serv .active-coin .service-item {
+    border-color: var(--primary);
+  }
+  
+  .crypt_serv .service-item:hover {
+border-color: var(--primary);
+transform: translateY(-10px);
+  }
+  .crypt_serv .service-item .cicon {
+    margin-bottom: 10px;
+    height: 78px;
+    width: 100%;
+  }
+  .service-item h4 {
+    color: var(--blackb1);
+    font-size: var(--sz14);
+    line-height: var(--sz21);
+    margin: 0.5rem 0 0.7rem;
+  }
+  .service-item .cicon img {
+    max-width: 76px;
+    max-height: 76px;
+  }
+  .section-title h2 {
+    font-size: 60px;
+    line-height: 82px;
+    color: var(--black8);
+    margin: 2.4rem 0;
+  }
+
+  .cm_ctable1 .table thead th, .cm_ctable1 .table tbody td {
+    font-size: var(--sz15);
+    line-height: var(--sz24);
+    font-family: var(--opensans);
+    color: var(--black8);
+  }
+  .cm_ctable1 .table tbody td {
+    padding: 0.83rem 2rem;
+    vertical-align: middle;
+    border-color: var(--whiteb3);
+  }
+  .cm_ctable1 .table thead th {
+    padding: 1.1rem 2rem;
+    background: var(--whiteb3);
+  }
+  .cm_ctable1 .table thead th:first-child {
+    border-top-left-radius: var(--sz15);
+  }
+  .cm_ctable1 .table thead th:last-child {
+    border-top-right-radius: var(--sz15);
+  }
+  .cm_ctable1 .table > :not(:first-child) {
+    border-top-color: var(--whiteb3);
+  }
+  .cm_ctable1
+  {
+    border: 1px solid var(--whiteb3);
+    border-radius: var(--sz12);
+    margin: 1rem 0;
+  }
+  .cm_ctable1 .table
+  {
+    margin: 0;
+  }
+  .cm_ctable1 .table tbody tr:last-child td{
+    border: none;
+  }
+  .is_dark .cbanner
+  {
+    background: var(--blackb1);
+  }
+  .is_dark .cbanner h1, .is_dark .cbanner p, .is_dark .section-title h2, .is_dark .service-item h4, .is_dark .cm_ctable1 .table thead th, .is_dark .cm_ctable1 .table tbody td
+  {
+    color: var(--whitet1);
+  }
+  .is_dark .crypt_serv .service-item
+  {
+    background: var(--blackb1);
+    border-color: var(--blackb2);
+  }
+  .is_dark .crypt_serv .service-item:hover
+  {
+    border-color: var(--primary);
+  }
+.is_dark .cm_ctable1 .table thead th
+{
+  background: var(--blackb1);  
+}
+.is_dark .cm_ctable1 .table tbody td, .is_dark .cm_ctable1 .table > :not(:first-child), .is_dark .cm_ctable1
+{
+  border-color: var(--blackb2);
+}
+
+.cm_ctable1 .table tbody td .coinim {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.comp_trad {
+  padding-bottom: 5rem;
+}
+
+.service-item h4 svg {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.is_dark .service-item h4 svg {
+  fill: var(--whitet1);
+}
+
+@media screen and (min-width:320px) and (max-width:1200px)
+{  
+  .cban_hd
+  {
+    margin: 0 0 30px;
+    word-break: break-all;
+    display: inline-block;
+    font-size: var(--sz11);
+    padding: 5px;
+  }
+  .cbanner h1
+  {
+    font-size: var(--sz24);
+    line-height: 36px;
+  }
+  .cbanner p
+  {
+    font-size: var(--sz15);
+  }
+  .service-item .cicon img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .crypt_serv .service-item
+  {
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px)
+{
+  .section-title h2
+  {
+    font-size: var(--sz32);
+    line-height: 54px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px)
+{  
+  .service-item h4
+  {
+    font-size: var(--sz13);
+  }
+  .cbanim img {
+    max-width: 330px;
+    position: relative;
+    display: block;
+    margin: 0 auto 2rem;
+  }
+  .section-title h2 {
+    font-size: var(--sz24);
+    line-height: 45px;
+    margin: 1rem 0 1.6rem;
+  }
+  .cm_ctable1 .table thead th
+  {
+    padding: 0.4rem;
+  }
+  .cm_ctable1 .table tbody td
+  {
+    padding: 0.3rem;
+  }
+  .cm_ctable1 .table tbody td .coinim
+  {
+    width: 16px;
+    height: 16px;
+  }
+  .cm_ctable1 .table thead th, .cm_ctable1 .table tbody td
+  {
+    font-size: var(--sz12);
+  }
+}
+
+.service-item h4 svg.svg-active {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
